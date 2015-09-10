@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/mode_normal" android:title="@string/mode_normal"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:enabled="false"/>
+
+    <item android:id="@+id/mode_driving" android:title="@string/mode_driving"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/mode_school" android:title="@string/mode_school"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/mode_night" android:title="@string/mode_night"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/toggle_dj" android:title="@string/toggle_dj"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:checkable="true" android:onClick="menuOnClick"/>
+
+    <item android:id="@+id/toggle_dnd" android:title="@string/toggle_dnd"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:checkable="true" android:onClick="menuOnClick"/>
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
+<!-- From: file:/Users/tylerwoodfin/AndroidStudioProjects/Victoria/app/src/main/res/menu/menu_main.xml -->
