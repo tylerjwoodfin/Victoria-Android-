@@ -30,7 +30,8 @@
         android:focusableInTouchMode="true"
         android:focusable="true"
         android:enabled="true"
-        android:textColor="#E0E0E0"/>
+        android:textColor="#E0E0E0"
+        />
 
 </RelativeLayout>
-<!-- From: file:/Users/tylerwoodfin/AndroidStudioProjects/Victoria/app/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/Users/tylerwoodfin/Desktop/Dropbox/Documents/Android%20Studio/Victoria/app/src/main/res/layout/activity_main.xml -->

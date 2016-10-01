@@ -21,6 +21,7 @@ public class MainActivity extends ActionBarActivity
     String   name;
     EditText mEdit;
     TextView mText;
+    //This si a test
 
     public void toast(String message)
     {
